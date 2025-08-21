@@ -14,16 +14,16 @@ class _CallInviteState extends State<CallInvite> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
+        // for sending call invitetion ...
         child: ZegoSendCallInvitationButton(
    isVideoCall: true,
    //You need to use the resourceID that you created in the subsequent steps. 
-   //Please continue reading this document.
-   
    resourceID: "zegouikit_call",
    invitees: [
+     // with this id and name you can make call anyone you want ..
       ZegoUIKitUser(
          id: '1',
-         name: 'P',
+         name: 'Pronoy',
       ),
  
    ],

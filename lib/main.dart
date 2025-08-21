@@ -8,7 +8,7 @@ final navigatorKey = GlobalKey<NavigatorState>();
 void main() async {
 // flutter binding ensurelized .. 
   WidgetsFlutterBinding.ensureInitialized();
-
+// ZegoUIKitPrebuiltCallInvitationService set with navigatorkey ..
   ZegoUIKitPrebuiltCallInvitationService().setNavigatorKey(navigatorKey);
    
     await ZegoUIKit().initLog().then((value) async {
